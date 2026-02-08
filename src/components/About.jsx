@@ -12,9 +12,7 @@ const About = () => {
             scrollTrigger:{
                 trigger: "#about",
                 start:"top center",
-                // !important
                 end:"bottom center",
-                markers:true,
             }
         }).from(textSplit.words , {
             opacity:0,
@@ -26,7 +24,7 @@ const About = () => {
             opacity:0,
             duration:1,
             ease:"power1.inOut",
-            stagger: 0.02,
+            stagger: 0.04,
         
         },"-=.5")
     })
